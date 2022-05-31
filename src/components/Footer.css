@@ -1,0 +1,17 @@
+footer {
+position: fixed;
+  bottom: 25px;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  color: #555;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+/* media query with component for mobile */
