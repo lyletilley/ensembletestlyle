@@ -58,6 +58,13 @@ const showWeather = (event) => {
         </div>
       )}
 
+<div className='error'>
+      {myData.cod === "404" ? (
+        <h4>Please spell your city properly</h4>
+      ) : (
+<></>
+      )}
+</div>
 <Footer />
 
 {/* added component here */}

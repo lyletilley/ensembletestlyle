@@ -53,3 +53,8 @@ h3 {
 text-transform:  uppercase;
 }
 
+.error {
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
