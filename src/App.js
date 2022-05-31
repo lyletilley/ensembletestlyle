@@ -54,10 +54,13 @@ const showWeather = (event) => {
           <p className='nameCity'>{myData.name}</p>
           <p className='temp'>{(myData.main.temp)} degrees C</p>
           <p className='weather'>{myData.weather[0].main}</p>
+          <p className='feelsLike'>Feels like: {myData.main.feels_like}</p>
           {/* index 0 as it's the first index */}
         </div>
       )}
 
+
+{/* error handling , 404 */}
 <div className='error'>
       {myData.cod === "404" ? (
         <h4>Please spell your city properly</h4>
