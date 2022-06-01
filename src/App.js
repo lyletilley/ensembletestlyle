@@ -53,10 +53,12 @@ const showWeather = (event) => {
 
 
       {typeof myData.main === 'undefined' ? (
+        // if is true, then display the below message
       <div className='middle'>
         <h3>Thanks for checking out my test. Search a city!</h3>
       </div>
       ) : (
+        // Otherwise, show below
         
         // these indexes are pulled from the API - 
         <div className='searchArea'>
